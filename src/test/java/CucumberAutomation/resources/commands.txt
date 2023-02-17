@@ -1,0 +1,5 @@
+Command to run tests using maven: mvn test
+
+Command to run tests using maven parameterizing the tags: mvn test -Dcucumber.options="--tags @DeletePlace"
+
+Github about the cucumber-report: https://github.com/damianszczepanik/maven-cucumber-reporting
