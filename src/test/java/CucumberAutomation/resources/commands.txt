@@ -1,5 +1,8 @@
 Command to run tests using maven: mvn test
 
-Command to run tests using maven parameterizing the tags: mvn test -Dcucumber.options="--tags @DeletePlace"
+Command to run tests using maven parameterizing the tags: mvn test -Dcucumber.filter.tags="@DeletePlace"
 
 Github about the cucumber-report: https://github.com/damianszczepanik/maven-cucumber-reporting
+
+To configure maven in Jenkins server user should go to the url "localhost:8080/configureTools/" and there the user should configure maven in the maven section.
+Otherwise when you run the project, the console output will show you Path error.
