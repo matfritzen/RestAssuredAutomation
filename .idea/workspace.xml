@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12782d56-71d9-4d65-9088-2ecef81abf20" name="Changes" comment="Adding published flag = true in Cucumber Options">
+    <list default="true" id="12782d56-71d9-4d65-9088-2ecef81abf20" name="Changes" comment="Adding publish = true flag in the TestRunner.class">
+      <change afterPath="$PROJECT_DIR$/src/test/java/XSSFWorkbook/dataDriven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/XSSFWorkbook/test/excelDriven.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/XSSFWorkbook/testSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberAutomation/cucumberOptions/TestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CucumberAutomation/cucumberOptions/TestRunner.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +51,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.TestRunner">
+  <component name="RunManager" selected="TestNG.DynamicJson.addBook">
     <configuration name="EcommerceAPITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RestAssured.EcommerceAPITest" />
       <module name="TesteApi" />
@@ -65,19 +67,6 @@
     </configuration>
     <configuration name="GraphQLScript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RestAssured.GraphQLScript" />
-      <module name="TesteApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAssured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpecBuilderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestAssured.SpecBuilderTest" />
       <module name="TesteApi" />
       <extension name="coverage">
         <pattern>
@@ -124,13 +113,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DynamicJson.addBook" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="TesteApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RestAssured.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="RestAssured" />
+      <option name="MAIN_CLASS_NAME" value="RestAssured.DynamicJson" />
+      <option name="METHOD_NAME" value="addBook" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Application.GraphQLScript" />
         <item itemvalue="Cucumber Java.Scenario: Verify if place is being successfully added using AddPlaceAPI" />
         <item itemvalue="Application.EcommerceAPITest" />
-        <item itemvalue="Application.SpecBuilderTest" />
       </list>
     </recent_temporary>
   </component>
@@ -150,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677073604670</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fixing POM.xml file">
+      <created>1677509918743</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677509918743</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding publish = true flag in the TestRunner.class">
+      <created>1677509954533</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1677509954533</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -168,6 +189,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="adding APIFramework classes" />
     <MESSAGE value="Adding published flag = true in Cucumber Options" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding published flag = true in Cucumber Options" />
+    <MESSAGE value="Fixing POM.xml file" />
+    <MESSAGE value="Adding publish = true flag in the TestRunner.class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding publish = true flag in the TestRunner.class" />
   </component>
 </project>
