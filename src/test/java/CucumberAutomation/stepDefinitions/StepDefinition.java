@@ -68,7 +68,7 @@ public class StepDefinition extends Utils {
 
     @Then("^the API call got success with status code 200$")
     public void the_api_call_got_success_with_status_code_200() throws Throwable {
-        Assert.assertEquals(response.getStatusCode(), 200);
+        Assert.assertEquals(200, response.getStatusCode());
     }
 
     @And("{string} in response body is {string}")
