@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12782d56-71d9-4d65-9088-2ecef81abf20" name="Changes" comment="Removing Test tag from tests on TesteApi folder">
+    <list default="true" id="12782d56-71d9-4d65-9088-2ecef81abf20" name="Changes" comment="Adding version in the maven-cucumber-reporting plugin">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -189,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677634653271</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adding version in the maven-cucumber-reporting plugin">
+      <created>1677635279153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635279153</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -213,6 +220,7 @@
     <MESSAGE value="Adding html option in Cucumber Options" />
     <MESSAGE value="Removing tag from test on TesteApi folder" />
     <MESSAGE value="Removing Test tag from tests on TesteApi folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing Test tag from tests on TesteApi folder" />
+    <MESSAGE value="Adding version in the maven-cucumber-reporting plugin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding version in the maven-cucumber-reporting plugin" />
   </component>
 </project>
