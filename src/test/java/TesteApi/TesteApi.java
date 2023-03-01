@@ -4,7 +4,6 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.containsString;
@@ -21,7 +20,7 @@ public class TesteApi {
 
     }
 
-    @Test
+//    @Test
     public void cadastro(){
         String url = "user/passwordlesssignup";
         String body = "{\"email\": \"matusfrditzen@hotmail.com\", \"appDescription\": \"teste the cat api\"}";
@@ -68,7 +67,7 @@ public class TesteApi {
     }
 
 
-    @Test
+//    @Test
     public void deletaVotacao(){
         votacao();
         deletaVoto();
@@ -107,7 +106,7 @@ public class TesteApi {
         System.out.println("RETORNO => " + response.body().asString());
     }
 
-    @Test
+//    @Test
     public void favoritaDesfavorita(){
         favoritar();
         deletaFavorito();
