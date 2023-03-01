@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12782d56-71d9-4d65-9088-2ecef81abf20" name="Changes" comment="Adding version in the maven-cucumber-reporting plugin">
+    <list default="true" id="12782d56-71d9-4d65-9088-2ecef81abf20" name="Changes" comment="Removing &lt;classificationDirectory&gt; and &lt;classificationFile&gt; from pom file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logging.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logging.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CucumberAutomation/cucumberOptions/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber/Options/TestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/jsonReports/cucumber-report.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/jsonReports/cucumber-report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CucumberAutomation/cucumberOptions/TestRunner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TesteApi/TesteApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TesteApi/TesteApi.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,20 +54,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.DynamicJson.addBook">
-    <configuration name="EcommerceAPITest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RestAssured.EcommerceAPITest" />
-      <module name="TesteApi" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="RestAssured.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TestRunner (1)">
     <configuration name="GraphQLScript" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RestAssured.GraphQLScript" />
       <module name="TesteApi" />
@@ -91,6 +84,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TesteApi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.Options.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cucumber.Options" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.Options.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -130,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestRunner (1)" />
         <item itemvalue="TestNG.DynamicJson.addBook" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Application.GraphQLScript" />
         <item itemvalue="Cucumber Java.Scenario: Verify if place is being successfully added using AddPlaceAPI" />
-        <item itemvalue="Application.EcommerceAPITest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677635279153</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Removing &lt;classificationDirectory&gt; and &lt;classificationFile&gt; from pom file">
+      <created>1677635903897</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1677635903897</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,6 +236,7 @@
     <MESSAGE value="Removing tag from test on TesteApi folder" />
     <MESSAGE value="Removing Test tag from tests on TesteApi folder" />
     <MESSAGE value="Adding version in the maven-cucumber-reporting plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding version in the maven-cucumber-reporting plugin" />
+    <MESSAGE value="Removing &lt;classificationDirectory&gt; and &lt;classificationFile&gt; from pom file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removing &lt;classificationDirectory&gt; and &lt;classificationFile&gt; from pom file" />
   </component>
 </project>
